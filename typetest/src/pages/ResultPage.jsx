@@ -21,6 +21,7 @@ import {
 import { Space } from "../styles/QuestionPageStyles"
 import Instargram from "../components/Instargram"
 import Share from "../components/Share"
+import IntroductionPage from "./IntroductionPage"
 
 const ResultPage = () => {
   const navigate = useNavigate()
@@ -108,6 +109,7 @@ const ResultPage = () => {
       </Button>
       <Instargram />
       <Space></Space>
+      <IntroductionPage />
     </ResultPageContainer>
   )
 }
